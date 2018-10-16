@@ -1,0 +1,19 @@
+{
+  "name": "plaid-cli",
+  "version": "1.0.0",
+  "description": "A CLI interface to interact with the Plaid API",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cyrus Stoller",
+  "license": "MIT",
+  "bin": {
+    "plaid-cli": "index.js"
+  },
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "minimist": "^1.2.0",
+    "plaid": "^2.8.2",
+    "vorpal": "^1.12.0"
+  }
+}
