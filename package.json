@@ -1,12 +1,24 @@
 {
   "name": "plaid-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI interface to interact with the Plaid API",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "github:cyrusstoller/plaid-cli"
+  },
+  "keywords": [
+    "Plaid",
+    "Fintech",
+    "CLI"
+  ],
   "author": "Cyrus Stoller",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cyrusstoller/plaid-cli/issues"
+  },
   "bin": {
     "plaid-cli": "index.js"
   },
